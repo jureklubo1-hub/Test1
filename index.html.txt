@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spomienka na Ja I ONATY, PhD.</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="memorial-container">
+    <header>
+      <h1>Ja I ONATY, PhD.</h1>
+      <p class="dates">* 1. 2. 2000  ?  3. 2. 2222</p>
+    </header>
+
+    <section class="portrait">
+      <img src="images/portrait.jpg" alt="PortrÈt Ja I ONATY">
+    </section>
+
+    <section class="family">
+      <h2>Rodina</h2>
+      <p>Brat Jano, Brat Matej</p>
+    </section>
+
+    <section class="biography">
+      <h2>Spomienka</h2>
+      <p>Tu mÙûe byù kr·tky text o osobe, spomienka alebo ûivotopisn˝ ˙vod. Pridaj niekoæko viet o ûivote, hodnot·ch Ëi prÌnose osoby.</p>
+    </section>
+
+    <section class="gallery">
+      <h2>GalÈria</h2>
+      <div class="gallery-grid">
+        <img src="images/portrait.jpg" alt="Foto 1">
+        <img src="images/portrait.jpg" alt="Foto 2">
+      </div>
+    </section>
+
+    <section class="tree">
+      <h2>RodokmeÚ</h2>
+      <p>Tu mÙûe byù obr·zok alebo popis rodokmeÚa.</p>
+    </section>
+
+    <footer>
+      <canvas id="qr"></canvas>
+      <p>Digit·lna spomienka ï 2025</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+const canvas = document.getElementById("qr");
+const ctx = canvas.getContext("2d");
+const url = window.location.href;
+const qrUrl = https://api.qrserver.com/v1/create-qr-code/?data=${encodeURIComponent(url)}&size=150x150;
+
+const img = new Image();
+img.crossOrigin = "Anonymous";
+img.onload = () => ctx.drawImage(img, 0, 0);
+img.src = qrUrl;
